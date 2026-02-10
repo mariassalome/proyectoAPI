@@ -151,3 +151,19 @@ f-. Validación de recurso inexistente GET 404:
     
 "Not found"
 
+
+3 Resumen del endpoitn y del HTTP
+
+Acción                  Metodo                  Enpoint                 HTTP
+
+listar todo             GET                     /totebags               200 OK
+
+Crear                   POST                    /totebags               201 Created 
+
+Ver por ID              GET                     /totebags/3             200 OK
+
+Actualizar              PUT                     /totebags/3             200 OK
+
+Borrar                  DELETE                  /totebags/3             200 OK
+
+Error                   GET                     /totebags/3             404 Not Found
