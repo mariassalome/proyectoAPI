@@ -5,7 +5,8 @@
 [URL de la API:](https://6987b995780e8375a686e28f.mockapi.io/totebags)
 
 *1- Modelo de datos diseñado con mockAPI:*
-    *-Se configura el modelo totebags con la siguiente estructura de datos:*
+
+*-Se configura el modelo totebags con la siguiente estructura de datos:*
       
   ```
   [
@@ -100,6 +101,7 @@
 *c-. Consulta del registro individual GET:*
 
 *- Endpoint:* `/totebags/3`
+
 *- Status code:* `200 OK`
 
     -Respuesta de Postman:
@@ -123,6 +125,7 @@
 *d-. Actualización de un registro PUT:*
 
 *- Status code:* `200 OK`
+
 *- Modificación: Actualización del stock y el precio de la totebag*
 
 *-Respuesta de Postman:*
