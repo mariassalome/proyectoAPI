@@ -36,9 +36,9 @@
 
   *a-. Obtención de registros GET:*
     
-    - Status code: 200 OK
+*- Status code:* `200 OK`
     
-    -Respuesta de Postman:
+ *-Respuesta de Postman:*
 ```      
 [
     {
@@ -62,9 +62,9 @@
   
 *b-. Creación de un nuevo registro POST:*
 
-    - Status code: 201 Created
+*- Status code:* `201 Created`
 
-- Cuerpo enviado a Postman:
+ *-Cuerpo enviado a Postman:*
 ```    
 {
         "nombre": "Totebag Singapur",
@@ -78,7 +78,7 @@
 }
 ```
 
-- Respuesta de Postman: 
+*- Respuesta de Postman:* 
 
 ```    
 {
@@ -99,8 +99,8 @@
 
 *c-. Consulta del registro individual GET:*
 
-    - Endpoint: /totebags/3
-    - Status code: 200 OK
+*- Endpoint:* `/totebags/3`
+*- Status code:* `200 OK`
 
     -Respuesta de Postman:
 ```
@@ -122,10 +122,10 @@
 
 *d-. Actualización de un registro PUT:*
 
-    - Status code: 200 OK
-    - Modificación: Actualización del stock y el precio de la totebag 
+*- Status code:* `200 OK`
+*- Modificación: Actualización del stock y el precio de la totebag*
 
-    -Respuesta de Postman:
+*-Respuesta de Postman:*
 ```
 {
     "nombre": "Totebag Singapur",
@@ -145,9 +145,9 @@
 
 *e-. Eliminación de un registro DELETE:*
 
-    -Status Code 200 OK
+*-Status Code:* `200 OK`
     
-    -Respuesta Postman: 
+*-Respuesta Postman:*
 
 ```
 {
@@ -158,9 +158,9 @@
 
 *f-. Validación de recurso inexistente GET 404:*
 
-    - Status Code: 404 Not Found
+*- Status Code:* `404 Not Found`
 
-    - Respuesta Postman: 
+*- Respuesta Postman:*
     
 ```
 "Not found"
