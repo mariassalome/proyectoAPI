@@ -179,5 +179,5 @@
 |  Actualizar      |       PUT           |       `/totebags/3`    |        200 OK        |
 |                  |                     |                        |                      |
 |  Borrar          |       DELETE        |       `/totebags/3`    |         200 OK       |
-|                  |                     |                        |                      |                                                  
+|------------------:---------------------:------------------------:----------------------|
 |  Error           |       GET           |       `/totebags/3`    |     404 Not Found    |
